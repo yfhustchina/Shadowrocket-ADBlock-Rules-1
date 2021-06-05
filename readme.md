@@ -119,7 +119,7 @@
 - 直连：正常的网站
 - 包含广告过滤
 
-规则地址：<https://github.com/mskgroup/Shadowrocket-ADBlock-Rules-master/releases/latest/download/sr_top500_whitelist_ad.conf>
+规则地址：<https://github.com/mskgroup/Shadowrocket-ADBlock-Rules-master/releases/latest/download/sr_top500_banlist_ad.conf>
 
 
 ## 白名单过滤 + 广告
@@ -142,7 +142,7 @@
 - 直连：正常的网站
 - 不包含广告过滤
 
-规则地址：<https://github.com/mskgroup/Shadowrocket-ADBlock-Rules-master/releases/latest/download/sr_top500_whitelist_ad.sr_top500_banlist.conf>
+规则地址：<https://github.com/mskgroup/Shadowrocket-ADBlock-Rules-master/releases/latest/download/sr_top500_banlist.conf>
 
 
 ## 白名单过滤
