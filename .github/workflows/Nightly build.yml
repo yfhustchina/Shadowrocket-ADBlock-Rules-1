@@ -32,9 +32,8 @@ jobs:
              pip install flake8 pytest
              pip install bs4     
       - name: cd
-        run: ls
+        run: cd ../Shadowrocket-ADBlock-Rules/factory
       - name: Nightly build
         run: auto_build.sh
-             auto_build.sh
 
 
