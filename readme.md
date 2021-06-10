@@ -16,7 +16,7 @@
 
 这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤。规则定义了哪些网站可以直连，哪些必须走代理，规则是一个纯文本文件，无法提供翻墙功能。使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
 
-**正在使用手机浏览本页面的用户 [请点击这里](https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看完整的说明文档。**
+**正在使用手机浏览本页面的用户 [请点击这里](https://github.com/mskgroup/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看完整的说明文档。**
 
 **本规则具有以下特点：**
 
@@ -29,7 +29,7 @@
 
 ## 规则列表
 
-![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
+![规则选择指南](https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
@@ -119,7 +119,7 @@
 - 直连：正常的网站
 - 包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_top500_banlist_ad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_top500_banlist_ad.conf>
 
 
 ## 白名单过滤 + 广告
@@ -130,7 +130,7 @@
 - 代理：默认代理其余的所有境外网站
 - 包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_top500_whitelist_ad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_top500_whitelist_ad.conf>
 
 
 
@@ -142,7 +142,7 @@
 - 直连：正常的网站
 - 不包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_top500_banlist.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_top500_banlist.conf>
 
 
 ## 白名单过滤
@@ -153,7 +153,7 @@
 - 代理：默认代理其余的所有境外网站
 - 不包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_top500_whitelist.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_top500_whitelist.conf>
 
 
 
@@ -161,7 +161,7 @@
 
 国内外划分，对中国网站直连，外国网站代理。包含广告过滤。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_cnip_ad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_cnip_ad.conf>
 
 
 
@@ -169,7 +169,7 @@
 
 国内外划分，对中国网站直连，外国网站代理。不包含广告过滤。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_cnip.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_cnip.conf>
 
 
 
@@ -180,7 +180,7 @@
 - 直连：所有请求
 - 包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_direct_banad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_direct_banad.conf>
 
 
 
@@ -192,7 +192,7 @@
 - 代理：其余所有请求
 - 包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_proxy_banad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_proxy_banad.conf>
 
 
 
@@ -204,7 +204,7 @@
 - 代理：中国网站
 - 不包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_backcn.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_backcn.conf>
 
 
 
@@ -216,5 +216,5 @@
 - 代理：中国网站
 - 包含广告过滤
 
-规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules-master/sr_backcn_ad.conf>
+规则地址：<https://mskgroup.github.io/Shadowrocket-ADBlock-Rules/sr_backcn_ad.conf>
 

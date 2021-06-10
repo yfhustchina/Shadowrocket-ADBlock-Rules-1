@@ -1,4 +1,4 @@
-# Best Shadowrocket Rules (https://github.com/h2y/Shadowrocket-ADBlock-Rules)
+# Best Shadowrocket Rules (https://github.com/mskgroup/Shadowrocket-ADBlock-Rules)
 # by Moshel
 # build time: {{build_time}}
 
