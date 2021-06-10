@@ -21,7 +21,7 @@ jobs:
         # Version range or exact version of a Python version to use, using SemVer's version range syntax.
         python-version: 3.9 # optional, default is 3.x
         # The target architecture (x86, x64) of the Python interpreter.
-        architecture: x86 # optional
+        architecture: x64 # optional
         # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
         token: ${{ github.token }}  # optional, default is ${{ github.token }}
     - name: pip
