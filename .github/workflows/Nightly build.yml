@@ -5,14 +5,19 @@ name: Nightly build
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
      runs-on: ubuntu-latest
      steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
         with:
