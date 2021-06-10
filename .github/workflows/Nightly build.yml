@@ -26,10 +26,10 @@ jobs:
         run: python -m pip install --upgrade pip
              pip install flake8 pytest
              pip install bs4     
+      - name: cd
+        run: cd ../Shadowrocket-ADBlock-Rules/factory
       - name: Nightly build
-        run: cd ..
-             cd Shadowrocket-ADBlock-Rules
-             cd factory
+        run: auto_build.sh
              auto_build.sh
 
 
