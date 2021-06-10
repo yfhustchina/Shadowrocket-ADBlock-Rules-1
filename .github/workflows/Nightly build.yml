@@ -30,4 +30,5 @@ jobs:
            pip install bs4
         
     - name: Nightly build
-      run: ../Shadowrocket-ADBlock-Rules/factory/auto_build.sh
+      run: 
+          ../Shadowrocket-ADBlock-Rules/factory/auto_build.sh
