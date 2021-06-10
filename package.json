@@ -1,0 +1,34 @@
+{
+  "name": "publish-github-action",
+  "version": "1.2.2",
+  "private": true,
+  "description": "Publish your GitHub Action",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgymnich/publish-github-action.git"
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "publish"
+  ],
+  "author": "tgymnich",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/exec": "^1.0.1",
+    "@actions/github": "^4.0.0",
+    "@octokit/plugin-retry": "^3.0.7",
+    "@octokit/rest": "^18.5.3",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4"
+  }
+}
