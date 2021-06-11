@@ -12,7 +12,8 @@ import re
 import base64
 
 
-rules_url = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
+# rules_url= 'https://pagure.io/gfwlist/raw/master/f/gfwlist.txt'
+rules_url= 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 
 unhandle_rules = []
 
